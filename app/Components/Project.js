@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef} from 'react';
+import{ useEffect, useRef} from 'react';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -30,44 +30,44 @@ const Project = () => {
 
   const projectsData = [
     {
-      title: "IFZY College",
+      title: "CodeCrafters Academy",
       description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae expedita enim ipsa voluptatum inventore fugiat tempore vero dignissimos facilis ea? !.",
-      stacks: "Stacks: Vite + React.JS, React-Redux, Bootstrap, NodeJS, MongoDB.",
-      githubLink: "",
+      stacks: "Stacks: Vite + React.JS, React-Redux, Node.JS, MongoDB.",
+      githubLink: "https://github.com/Ifzy99/CodeCrafters_Academy",
       liveLink: "",
       category: "LMS App"
     },
     {
       title: "FinBank",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae expedita enim ipsa voluptatum inventore fugiat tempore vero dignissimos facilis ea? !.",
+      description: "FinBank is a web banking application designed to provide users with a seamless experience for managing their finances. The app includes features such as account management, transaction tracking, and an intuitive user interface for both mobile and desktop users.",
       stacks: "Stacks: Javascript,HTML, CSS, Bootstrap.",
-      githubLink: "",
+      githubLink: "https://github.com/Ifzy99/FinBank",
       liveLink: "https://finbankapp.netlify.app/",
       category: "FinTech Web App"
     },
     {
-      title: "Printivo",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae expedita enim ipsa voluptatum inventore fugiat tempore vero dignissimos facilis ea? !.",
+      title: "Printivo Landing Page",
+      description: "PrintivoApp is a landing page clone of the official Printivo website. This project replicates the design and layout of the homepage, focusing on clean UI and responsive design. It's built to showcase a simple, attractive landing page for a printing business.",
       stacks: "Stacks: Vite + React, Javascript, Bootstrap.",
       githubLink: "https://github.com/Ifzy99/printivoApp",
       liveLink: "https://printivo-app.vercel.app",
       category: "E-Commerce Landing Page"
     },
     {
-      title: "Weather App",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae expedita enim ipsa voluptatum inventore fugiat tempore vero dignissimos facilis ea? !.",
+      title: "Mini Weather Checker",
+      description: "Mini Weather Checker is a simple weather application built with HTML, CSS, and JavaScript that fetches real-time weather data using the OpenWeather API. It allows users to search for the current weather conditions of any city around the world.",
       stacks: "Stacks: Javascript, Bootstrap, HTML and CSS.",
       githubLink: "https://github.com/Ifzy99/weatherForecast",
-      liveLink: "",
+      liveLink: "https://miniweatherchecker.netlify.app/",
       category: "Weather Forecast App"
     },
     {
-      title: "IFZY College",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae expedita enim ipsa voluptatum inventore fugiat tempore vero dignissimos facilis ea? !.",
-      stacks: "Stacks: Vite + React.JS, React-Redux, Bootstrap, NodeJS, MongoDB.",
-      githubLink: "",
-      liveLink: "",
-      category: "LMS App"
+      title: "DevCamper API",
+      description: "DevCamper is a comprehensive backend API for managing bootcamps, courses, reviews, users, and authentication. It’s designed to serve as the backend for a bootcamp directory application. The API is built with Node.js and Express, utilizing MongoDB for data storage, and includes full CRUD operations, user authentication, and role-based access control.",
+      stacks: "Stacks: Node.js, Express j.s, JSON Web Token, Postman, MongoDB.",
+      githubLink: "https://github.com/Ifzy99/devCamper_BACKEND",
+      liveLink: "https://dev-camper-backend.vercel.app/",
+      category: "Backend API"
     },
   ];
 
